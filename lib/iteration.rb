@@ -9,8 +9,8 @@ def join_ingredients(src)
 
   row_index = 0
   while row_index < src.count do
-    element_index = 0
     puts "I love #{row_index[0]} and #{row_index[1]} on my pizza"
+    row_index++
   end
 end
 
